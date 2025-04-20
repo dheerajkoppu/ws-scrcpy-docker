@@ -3,5 +3,7 @@ services:
     container_name: scrcpy-web
     restart: unless-stopped
     image: scrcpy-web
+    ports:
+      - 8000:8000
     privileged: true
     build: .
