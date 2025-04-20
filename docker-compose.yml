@@ -1,0 +1,7 @@
+services:
+  scrcpy-web:
+    container_name: scrcpy-web
+    restart: unless-stopped
+    image: scrcpy-web
+    privileged: true
+    build: .
