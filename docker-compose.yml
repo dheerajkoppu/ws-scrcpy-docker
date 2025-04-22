@@ -2,7 +2,7 @@ services:
   scrcpy-web:
     container_name: scrcpy-web
     restart: unless-stopped
-    image: shmayro/dockerify-android:latest
+    image: shmayro/scrcpy-web:latest
     ports:
       - 8000:8000
     privileged: true
