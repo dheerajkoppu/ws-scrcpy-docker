@@ -1,5 +1,5 @@
 # scrcpy-web
-Scrcpy web client running on Dockerhub
+Scrcpy web client running on Docker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dheerajkoppu/scrcpy-web)](https://hub.docker.com/r/dheerajkoppu/scrcpy-web)
