@@ -43,7 +43,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ github.ref == 'refs/heads/main' && 'shmayro/scrcpy-web:latest' || '' }}
-            ${{ github.ref == 'refs/heads/main' && format('shmayro/scrcpy-web:{0}', env.DATE) || '' }}
-            ${{ github.event_name == 'pull_request' && format('shmayro/scrcpy-web:pr-{0}', env.PR_ID) || '' }}
+            ${{ github.ref == 'refs/heads/main' && 'dheerajkoppu/scrcpy-web:latest' || '' }}
+            ${{ github.ref == 'refs/heads/main' && format('dheerajkoppu/scrcpy-web:{0}', env.DATE) || '' }}
+            ${{ github.event_name == 'pull_request' && format('dheerajkoppu/scrcpy-web:pr-{0}', env.PR_ID) || '' }}
           platforms: linux/amd64
