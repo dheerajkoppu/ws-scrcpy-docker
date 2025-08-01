@@ -2,7 +2,7 @@ services:
   scrcpy-web:
     container_name: scrcpy-web
     restart: unless-stopped
-    image: shmayro/scrcpy-web:latest
+    image: dheerajkoppu/ws-scrcpy:latest
     ports:
       - 8000:8000
     privileged: true

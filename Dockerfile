@@ -2,7 +2,7 @@ FROM alpine:edge AS builder
 
 RUN apk add --no-cache git nodejs npm python3 make g++
 
-RUN git clone https://github.com/NetrisTV/ws-scrcpy.git /ws-scrcpy
+RUN git clone https://github.com/dheerajkoppu/ws-scrcpy.git /ws-scrcpy
 
 WORKDIR /ws-scrcpy
 RUN npm install
